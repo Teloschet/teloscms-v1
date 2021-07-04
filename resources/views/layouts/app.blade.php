@@ -29,15 +29,26 @@
                 <header class="bg-white shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         <b>Início</b>
+                        <button style="float:right;margin-top:-5px;padding:5px 10px;background:#138918;color:#fff;border-radius:5px;box-shadow:0px 0px 4px 1px rbga(0, 0, 0, 0.1);">Entrar no Hotel &rarr;</button>
                     </div>
+                    
                 </header>
             @endif
 
             <!-- Page Content -->
             <main>
                 {{ $slot }}
+
+                <footer class="bg-white shadow" style="box-shadow:0px 0px 4px 1px rgba(0, 0, 0, 0.1);">
+                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                        <center><b>TelosCMS &copy; 2021 &rarr; Desenvolvido por Telos</b></center>
+                    </div>
+                    
+                </footer>
             </main>
+            
         </div>
+        
 
         @stack('modals')
 
