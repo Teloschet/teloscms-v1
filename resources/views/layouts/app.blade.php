@@ -29,7 +29,7 @@
                 <header class="bg-white shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         <b>Início</b>
-                        <button style="float:right;margin-top:-5px;padding:5px 10px;background:#138918;color:#fff;border-radius:5px;box-shadow:0px 0px 4px 1px rbga(0, 0, 0, 0.1);">Entrar no Hotel &rarr;</button>
+                        <button style="float:right;margin-top:-5px;padding:5px 10px;background:#138918;color:#fff;border-radius:5px;box-shadow:0px 0px 4px 1px rbga(0, 0, 0, 0.1);">Entrar &rarr;</button>
                     </div>
                     
                 </header>
