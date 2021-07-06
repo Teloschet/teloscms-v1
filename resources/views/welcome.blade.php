@@ -18,6 +18,44 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            .updates {
+                width:100%;
+                height:150px;
+                border:4px solid #333;
+                border-radius:10px;
+                box-shadow:0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .updates > h1 {
+                font-size:15px;
+                margin-top:5px;
+            }
+
+            .updates > p {
+                font-size:14px;
+                width:300px;
+                text-align:left;
+                left:50%;
+                position:relative;
+                transform:translateX(-50%);
+            }
+
+            h4 {
+                position:absolute;
+                right:-10px;
+                top:70px;
+                font-size:18px;
+                color:#fff;
+                text-transform:uppercase;
+                font-weight:900;
+                z-index:9999;
+                transform:rotate(30deg);
+                background:#333;
+                padding:2px 5px;
+                border-radius:5px;
+                box-shadow:0px 0px 4px 1px rgba(0, 0, 0, 0.1)
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -36,7 +74,18 @@
                 </div>
             @endif
 
-                   
+                   <div class="relative text-center">
+                        <h1 style="margin-bottom:-25px;position:relative;display:block;">Welcome to TelosCMS</h1>
+                        <p>Version 1.0.0 | Last Update at 06 JUL 21</p>
+
+                        <h4>New</h4>
+                        <div class="updates">
+                            <h1>Last Updates</h1>
+
+                            <p>&rarr; Created Two Factor Authentication with Google Authenticator application.</p>
+                            <p>&rarr; Delete Account Option been added.</p>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>
