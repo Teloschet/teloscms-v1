@@ -12,11 +12,13 @@
             </div>
 
             <div class="news">
-                <h1>Lorem ipsum dolor sit amet</h1>
+                <h1>Last Notices</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="updates">
+                <h1>Last Updates</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
     </div>
@@ -25,7 +27,7 @@
 <style>
 .news {
     margin-top:15px;
-    background: #333;
+    background: #fff;
     border-radius:5px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
     width:40%;
@@ -33,7 +35,7 @@
 }
 
 .news > h1 {
-    color:#fff;
+    color:#333;
     font-size: 24px;
     position:relative;
     top:15px;
@@ -46,12 +48,12 @@
     left:30px;
     width:400px;
     text-align:justify;
-    color:#fff;
+    color:#333;
 }
 
 .updates {
     margin-top:15px;
-    background: #333;
+    background: #fff;
     border-radius:5px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
     width:59%;
@@ -59,5 +61,21 @@
     position:relative;
     float:right;
     margin-top:-150px;
+}
+.updates > h1 {
+    color:#333;
+    font-size: 24px;
+    position:relative;
+    top:15px;
+    left:30px;
+}
+
+.updates > p {
+    position:relative;
+    top:20px;
+    left:30px;
+    width:650px;
+    text-align:justify;
+    color:#333;
 }
 </style>

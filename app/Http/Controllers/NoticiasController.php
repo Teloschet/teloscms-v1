@@ -62,4 +62,18 @@ private $objNews;
             ]);
         }
     }
+
+    private $dateNews;
+    public function lastNotices() {
+        $today = new DateTime(date("d/m/Y"));
+        $sql = mysqli_query("SELECT * FROM tb_news ORDER BY id");
+
+        while($table = mysql_fetch_assoc($sql)) {
+            if ($today = $table['date']) {
+                echo $table['date'];
+            } else {
+                echo 'Dont have last news today!';
+            }
+        }
+    }
 }
